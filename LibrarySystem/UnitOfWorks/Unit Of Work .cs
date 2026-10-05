@@ -1,0 +1,36 @@
+﻿using System.Xml.Serialization;
+using LibrarySystem.AppContext;
+using LibrarySystem.Models;
+using LibrarySystem.Repos.Interfaces;
+
+using LibrarySystem.Repos.Interfaces;
+namespace LibrarySystem.UnitOfWorks
+{
+    public class Unit_Of_Work : IUnitOfWork
+    {
+        public Unit_Of_Work(IGenericRepo<Category> gc , IMemberRepo mc , IBook bc , IGenericRepo<Borrowing>brc,AppDbContext db)
+        {
+            Categories = gc;
+            Members = mc;
+            Books = bc;
+            Borrwings = brc;
+            Context = db;
+            
+        }
+
+
+      
+
+        public IGenericRepo<Category> Categories { get;}
+        public IMemberRepo Members { get; }
+
+        public IBook Books { get; }
+        public IGenericRepo<Borrowing> Borrwings { get; }
+         AppDbContext Context { get; set; }
+        
+        void IUnitOfWork.Save()
+        {
+            Context.SaveChanges();
+        }
+    }
+}

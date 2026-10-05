@@ -1,0 +1,415 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\repos\\implementations\\memberrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\repos\\implementations\\memberrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\repos\\interfaces\\imemberrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\repos\\interfaces\\imemberrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\repos\\implementations\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\repos\\implementations\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\repos\\implementations\\bookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\repos\\implementations\\bookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\repos\\interfaces\\ibook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\repos\\interfaces\\ibook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\repos\\interfaces\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\repos\\interfaces\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\unitofworks\\unit of work .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\unitofworks\\unit of work .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\unitofworks\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\unitofworks\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\dto\\creatememberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\dto\\creatememberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\dto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\dto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\appcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\appcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Migrations\\20261005115333_Edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibrarySystem\\Migrations\\20261005115333_Edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\dto\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\dto\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Migrations\\20261005111827_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibrarySystem\\Migrations\\20261005111827_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\aadel.ahmed\\source\\repos\\librarysystem\\librarysystem\\models\\borrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17BC9BF-A09F-4C2A-A95B-81F3C6845981}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\models\\borrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMemberRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Interfaces\\IMemberRepo.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Repos\\Interfaces\\IMemberRepo.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Interfaces\\IMemberRepo.cs",
+              "RelativeToolTip": "LibrarySystem\\Repos\\Interfaces\\IMemberRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T12:03:14.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "LibrarySystem\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:57:07.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Interfaces\\IGenericRepo.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Repos\\Interfaces\\IGenericRepo.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Interfaces\\IGenericRepo.cs",
+              "RelativeToolTip": "LibrarySystem\\Repos\\Interfaces\\IGenericRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T09:41:59.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBook.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Interfaces\\IBook.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Repos\\Interfaces\\IBook.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Interfaces\\IBook.cs",
+              "RelativeToolTip": "LibrarySystem\\Repos\\Interfaces\\IBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:30:04.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Implementations\\BookRepo.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Repos\\Implementations\\BookRepo.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Implementations\\BookRepo.cs",
+              "RelativeToolTip": "LibrarySystem\\Repos\\Implementations\\BookRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:29:41.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Implementations\\MemberRepo.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Repos\\Implementations\\MemberRepo.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Implementations\\MemberRepo.cs*",
+              "RelativeToolTip": "LibrarySystem\\Repos\\Implementations\\MemberRepo.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T12:03:18.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Implementations\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Repos\\Implementations\\GenericRepo.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Repos\\Implementations\\GenericRepo.cs",
+              "RelativeToolTip": "LibrarySystem\\Repos\\Implementations\\GenericRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T09:40:55.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Unit Of Work .cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\UnitOfWorks\\Unit Of Work .cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\UnitOfWorks\\Unit Of Work .cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\UnitOfWorks\\Unit Of Work .cs",
+              "RelativeToolTip": "LibrarySystem\\UnitOfWorks\\Unit Of Work .cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:20:40.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\UnitOfWorks\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\UnitOfWorks\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\UnitOfWorks\\IUnitOfWork.cs",
+              "RelativeToolTip": "LibrarySystem\\UnitOfWorks\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:19:32.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Models\\Book.cs",
+              "RelativeToolTip": "LibrarySystem\\Models\\Book.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T10:58:01.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibrarySystem\\Controllers\\BookController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:25:03.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Models\\Member.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Models\\Member.cs",
+              "RelativeToolTip": "LibrarySystem\\Models\\Member.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T10:59:46.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "LibrarySystem\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:26:05.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateMemberDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Dto\\CreateMemberDto.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Dto\\CreateMemberDto.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Dto\\CreateMemberDto.cs",
+              "RelativeToolTip": "LibrarySystem\\Dto\\CreateMemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:58:59.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Dto\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Dto\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Dto\\CreateCategoryDto.cs",
+              "RelativeToolTip": "LibrarySystem\\Dto\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:54:20.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20261005115333_Edit.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Migrations\\20261005115333_Edit.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Migrations\\20261005115333_Edit.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Migrations\\20261005115333_Edit.cs",
+              "RelativeToolTip": "LibrarySystem\\Migrations\\20261005115333_Edit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:53:33.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Models\\Category.cs",
+              "RelativeToolTip": "LibrarySystem\\Models\\Category.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T10:56:37.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\AppContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\AppContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\AppContext\\AppDbContext.cs",
+              "RelativeToolTip": "LibrarySystem\\AppContext\\AppDbContext.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwGgAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T09:42:16.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateBookDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Dto\\CreateBookDto.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Dto\\CreateBookDto.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Dto\\CreateBookDto.cs",
+              "RelativeToolTip": "LibrarySystem\\Dto\\CreateBookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:39:58.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\appsettings.json",
+              "RelativeDocumentMoniker": "LibrarySystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\appsettings.json",
+              "RelativeToolTip": "LibrarySystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-05T09:45:37.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20261005111827_Init.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Migrations\\20261005111827_Init.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Migrations\\20261005111827_Init.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Migrations\\20261005111827_Init.cs",
+              "RelativeToolTip": "LibrarySystem\\Migrations\\20261005111827_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:18:27.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Program.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Program.cs",
+              "RelativeToolTip": "LibrarySystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:17:01.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Borrowing.cs",
+              "DocumentMoniker": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Models\\Borrowing.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Models\\Borrowing.cs",
+              "ToolTip": "C:\\Users\\Aadel.Ahmed\\source\\repos\\LibrarySystem\\LibrarySystem\\Models\\Borrowing.cs",
+              "RelativeToolTip": "LibrarySystem\\Models\\Borrowing.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T11:01:36.49Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
