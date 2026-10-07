@@ -146,3 +146,5 @@ C:\Users\Aadel.Ahmed\source\repos\LibrarySystem\LibrarySystem\obj\Debug\net8.0\r
 C:\Users\Aadel.Ahmed\source\repos\LibrarySystem\LibrarySystem\obj\Debug\net8.0\LibrarySystem.pdb
 C:\Users\Aadel.Ahmed\source\repos\LibrarySystem\LibrarySystem\obj\Debug\net8.0\LibrarySystem.genruntimeconfig.cache
 C:\Users\Aadel.Ahmed\source\repos\LibrarySystem\LibrarySystem\obj\Debug\net8.0\ref\LibrarySystem.dll
+C:\Users\Aadel.Ahmed\source\repos\LibrarySystem\LibrarySystem\obj\Debug\net8.0\LibrarySystem.sourcelink.json
+C:\Users\Aadel.Ahmed\source\repos\LibrarySystem\LibrarySystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

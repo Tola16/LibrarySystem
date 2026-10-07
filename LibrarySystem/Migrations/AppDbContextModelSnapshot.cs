@@ -183,9 +183,6 @@ namespace LibrarySystem.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<int?>("MemberId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -198,8 +195,6 @@ namespace LibrarySystem.Migrations
 
                     b.HasIndex("Email")
                         .IsUnique();
-
-                    b.HasIndex("MemberId");
 
                     b.ToTable("members");
 
@@ -217,6 +212,44 @@ namespace LibrarySystem.Migrations
                             Email = "Sara@example.com",
                             Name = "Sara Mohamed ",
                             Phone = "01012345678"
+                        });
+                });
+
+            modelBuilder.Entity("LibrarySystem.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("PassWordHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Dola",
+                            PassWordHash = "SecretPass"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Adel",
+                            PassWordHash = "SecretPass2"
                         });
                 });
 
@@ -240,7 +273,7 @@ namespace LibrarySystem.Migrations
                         .IsRequired();
 
                     b.HasOne("LibrarySystem.Models.Member", "Member")
-                        .WithMany()
+                        .WithMany("Members")
                         .HasForeignKey("MemberId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -248,13 +281,6 @@ namespace LibrarySystem.Migrations
                     b.Navigation("Book");
 
                     b.Navigation("Member");
-                });
-
-            modelBuilder.Entity("LibrarySystem.Models.Member", b =>
-                {
-                    b.HasOne("LibrarySystem.Models.Member", null)
-                        .WithMany("Members")
-                        .HasForeignKey("MemberId");
                 });
 
             modelBuilder.Entity("LibrarySystem.Models.Book", b =>

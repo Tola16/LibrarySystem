@@ -10,6 +10,7 @@ namespace LibrarySystem.UnitOfWorks
         public IBook Books { get; }
         public IGenericRepo<Borrowing> Borrwings { get; }
 
+        public IUserRepo Users { get; }
         void Save();
 
 

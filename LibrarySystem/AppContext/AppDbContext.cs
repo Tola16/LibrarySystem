@@ -1,4 +1,5 @@
-﻿using LibrarySystem.Models;
+﻿using System.Security.Permissions;
+using LibrarySystem.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design.Internal;
 using Microsoft.Identity.Client;
@@ -16,8 +17,26 @@ namespace LibrarySystem.AppContext
         public DbSet<Category> categories { get; set; }
         public DbSet<Member> members { get; set; }
 
+        public DbSet<User> users { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<User>().HasIndex(a => a.Name).IsUnique();
+
+            modelBuilder.Entity<User>().HasData(
+                new User
+                {
+                    Id = 1, 
+                    Name = "Dola",
+                     PassWordHash = "SecretPass"
+                }
+                ,new User
+                {
+                    Id = 2, 
+                    Name = "Adel",
+                     PassWordHash = "SecretPass2"
+                }
+                );
+            
             modelBuilder.Entity<Category>().HasData(
                 new Category
                 {

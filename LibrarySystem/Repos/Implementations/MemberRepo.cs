@@ -9,7 +9,7 @@ namespace LibrarySystem.Repos.Implementations
     public class MemberRepo : GenericRepo<Member> ,  IMemberRepo
     {
         private readonly AppDbContext _context;
-        public MemberRepo(AppDbContext Context)
+        public MemberRepo(AppDbContext Context)  : base(Context)
         {
             _context = Context;
         }

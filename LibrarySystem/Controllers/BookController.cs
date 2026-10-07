@@ -3,11 +3,13 @@ using System.Runtime.InteropServices;
 using LibrarySystem.Dto;
 using LibrarySystem.Models;
 using LibrarySystem.UnitOfWorks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibrarySystem.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class BookController : ControllerBase
     {
@@ -16,6 +18,7 @@ namespace LibrarySystem.Controllers
         {
             _Context = context;
         }
+        [HttpGet]
         public IActionResult Search(string Keaword)
         {
            var a =    _Context.Books.Search(Keaword).Select(a=> new

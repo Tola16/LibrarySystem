@@ -8,18 +8,19 @@ namespace LibrarySystem.UnitOfWorks
 {
     public class Unit_Of_Work : IUnitOfWork
     {
-        public Unit_Of_Work(IGenericRepo<Category> gc , IMemberRepo mc , IBook bc , IGenericRepo<Borrowing>brc,AppDbContext db)
+        public Unit_Of_Work(IGenericRepo<Category> gc , IMemberRepo mc , IBook bc , IGenericRepo<Borrowing>brc,AppDbContext db, IUserRepo ur)
         {
             Categories = gc;
             Members = mc;
             Books = bc;
             Borrwings = brc;
             Context = db;
-            
+            Users = ur;
         }
 
+        public IUserRepo Users { get; }
 
-      
+
 
         public IGenericRepo<Category> Categories { get;}
         public IMemberRepo Members { get; }
