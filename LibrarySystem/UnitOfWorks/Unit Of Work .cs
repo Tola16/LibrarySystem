@@ -8,7 +8,7 @@ namespace LibrarySystem.UnitOfWorks
 {
     public class Unit_Of_Work : IUnitOfWork
     {
-        public Unit_Of_Work(IGenericRepo<Category> gc , IMemberRepo mc , IBook bc , IGenericRepo<Borrowing>brc,AppDbContext db, IUserRepo ur)
+        public Unit_Of_Work(IGenericRepo<Category> gc , IMemberRepo mc , IBook bc , IBorrowingRepo brc,AppDbContext db, IUserRepo ur)
         {
             Categories = gc;
             Members = mc;
@@ -26,7 +26,7 @@ namespace LibrarySystem.UnitOfWorks
         public IMemberRepo Members { get; }
 
         public IBook Books { get; }
-        public IGenericRepo<Borrowing> Borrwings { get; }
+        public IBorrowingRepo Borrwings { get; }
          AppDbContext Context { get; set; }
         
         void IUnitOfWork.Save()

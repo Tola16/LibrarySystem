@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace LibrarySystem.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize]
+     [Authorize]
     [ApiController]
     public class BookController : ControllerBase
     {
@@ -42,22 +42,19 @@ namespace LibrarySystem.Controllers
                 Title = book.Title,
                 Author = book.Author,
                 Price = book.Price,
+                 ISBN = book.ISBN,
+                  CategorydId = book.CategoryId ,
+
 
             };
             _Context.Books.Create(newbook);
             _Context.Save();
             return  Created ();
         }
-        [HttpGet("Highest ")]
+        [HttpGet("Highest")]
         public IActionResult HighestPrice()
         {
-            var a = _Context.Books.HighestPrice().Select(a => new
-            {
-                a.Id,
-                a.Title,
-                a.Author,
-                a.Price
-            });
+            var a = _Context.Books.HighestPrice();
             return Ok(a); 
         }
 

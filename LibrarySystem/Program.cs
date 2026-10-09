@@ -14,6 +14,7 @@ builder.Services.AddScoped<IUnitOfWork, Unit_Of_Work>();
 builder.Services.AddScoped<IUserRepo, UserRepo>();
 builder.Services.AddScoped<IMemberRepo, MemberRepo>();
 builder.Services.AddScoped<IBook, BookRepo>();
+builder.Services.AddScoped<IBorrowingRepo, BorrowingRepo>();
 builder.Services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>));
 
 builder.Services.AddControllers();
@@ -55,6 +56,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

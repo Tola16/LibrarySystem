@@ -18,6 +18,7 @@ namespace LibrarySystem.Dto
         public decimal Price { get; set; }
 
         public bool IsAvilable { get; set; } = true;
+        public int CategoryId { get; set; }
 
     }
 }

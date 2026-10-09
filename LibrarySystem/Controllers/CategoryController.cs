@@ -1,11 +1,13 @@
 ﻿using LibrarySystem.Dto;
 using LibrarySystem.Models;
 using LibrarySystem.UnitOfWorks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibrarySystem.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CategoryController : ControllerBase
@@ -14,7 +16,7 @@ namespace LibrarySystem.Controllers
         public CategoryController(IUnitOfWork a) { _context = a; }
 
         [HttpGet]
-        public ActionResult GetAll()
+        public IActionResult GetAll()
         {
             var a = _context.Categories.GetAll().Select(a => new
             {
@@ -42,6 +44,12 @@ namespace LibrarySystem.Controllers
         public IActionResult DeleteCategory(int id)
         {
             var a = _context.Categories.GetById(id);
+
+            var IsHasBooks = _context.Books.GetAll().Any(book => book.CategorydId== id);
+            if (IsHasBooks)
+            {
+                return BadRequest("This Category Has Book");
+            }
             _context.Categories.Delete(a);
             return NoContent();
 

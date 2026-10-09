@@ -1,6 +1,7 @@
 ﻿using LibrarySystem.Dto;
 using LibrarySystem.Models;
 using LibrarySystem.UnitOfWorks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -9,6 +10,7 @@ namespace LibrarySystem.Controllers
 {
 
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class MemberController : ControllerBase
     {
@@ -17,7 +19,7 @@ namespace LibrarySystem.Controllers
         {
             _Context = unitOfWork;
         }
-
+                
         [HttpPost]
         public IActionResult CreateMember(CreateMemberDto member)
         {
@@ -34,7 +36,14 @@ namespace LibrarySystem.Controllers
         [HttpGet]
         public IActionResult TopReaders()
         {
-            var a = _Context.Members.TopReaders();
+            var a = _Context.Members.TopReaders().Select(a=>new
+            {
+                a.Id, 
+                a.Name , 
+                a.Phone ,
+                a.Email , 
+               TheCount =  a.Members?.Count ?? 0
+            });
             return Ok(a);
         }
 

@@ -18,10 +18,11 @@ namespace LibrarySystem.Repos.Implementations
             var a = _context.books.Where(a => a.Title.Contains(name) || a.Author.Contains(name)).ToList();
             return a;
         }
-        public ICollection<Book> HighestPrice()
+        public Book? HighestPrice()
         {
-            var a = _context.books.OrderByDescending(a => a.Price).Take(1).ToList();
-            return a;
+            return _context.books
+                .OrderByDescending(book => book.Price)
+                .FirstOrDefault();
         }
     }
 }
